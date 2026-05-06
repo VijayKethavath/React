@@ -1,0 +1,30 @@
+
+*{
+  padding: 0px;
+  margin: 0px;
+}
+.bg{
+  background-color: black;
+  color: white;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card{
+  background-color: rgb(53, 47, 47);
+  width: 30vw;
+  height: 20vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 2rem;
+}
+button{
+  margin: 3px;
+  padding: 5px;
+  border-radius: 10px;
+}
