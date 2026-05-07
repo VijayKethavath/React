@@ -1,0 +1,30 @@
+*{
+  padding: 0;
+  margin: 0%;
+}
+
+
+.bg-light{
+  height: 100vh;
+  background-color: white;
+  color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.bg-dark{
+  height: 100vh;
+  background-color: black;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+button{
+  padding: 5px;
+  margin: 10px;
+  border-radius: 10px;
+}
