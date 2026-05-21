@@ -1,0 +1,72 @@
+*{
+  margin: 0;
+  padding: 0;
+  background-color: black;
+  /* color: white; */
+}
+.navbar{
+  
+  font-family:'Courier New', Courier, monospace;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  background-color: white;
+
+}
+.navbar>h1{
+  background-color: white;
+}
+input{
+  background-color: white;
+  text-align: center;
+  border-radius:  10px;
+  /* border: none; */
+  font-size: large;
+  font-weight: 600;
+  background-color: aliceblue;
+}
+
+.ctgr>button{
+  background-color: aliceblue;
+  width: 100px;
+  padding: 5px;
+  border-radius: 10px;
+  font-weight: 600;
+  color: black;
+  margin-bottom: 10px;
+}
+.ctgr{
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin-top: 10px;
+}
+.maincard{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+
+ 
+}
+.card{
+  width: 200px;
+  height: 150px;
+  background-color: aliceblue;
+  margin: 10px;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  align-items: center;
+  flex-wrap: wrap;
+  border-radius: 30px 30px 5px 5px;
+
+  
+}
+img{
+  width: 90px;
+  background-color: aliceblue;
+}
+h4{
+  background-color: aliceblue;
+}
