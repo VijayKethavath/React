@@ -44,7 +44,7 @@ function Appstore(getdata) {
        {
         srcdata.length==0?(
           <h1 style={{color:"white"}}>No App data found</h1>
-        ):
+        ):+
         (
           srcdata.map(item=>(
           <div className="card" key={item.id}>

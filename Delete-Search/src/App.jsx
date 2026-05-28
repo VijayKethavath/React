@@ -14,7 +14,7 @@ const Social = [
   },
   {
     id: 3,
-    name: "naukri",
+    name: "Naukri",
     link: "https://www.naukri.com/",
     img: "https://e7.pngegg.com/pngimages/373/665/png-clipart-naukri-com-employment-website-job-hunting-online-job-search-india-employment.png",
   },
