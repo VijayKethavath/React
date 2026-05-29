@@ -1,0 +1,23 @@
+{
+  "user": [
+    {
+      "id": "3f1a",
+      "Username": "dfghjk",
+      "email": "kethavathvijay2210@gmail.com",
+      "Password": "123456"
+    },
+    {
+      "id": "fbae",
+      "Username": "sssssssss",
+      "email": "kethavathvijay210@gmail.com",
+      "Password": "sssssss"
+    },
+    {
+      "id": "781c",
+      "Username": "aaaaaaaaaa",
+      "email": "kethavathvjay2210@gmail.com",
+      "Password": "aaaaaaaaaaaaaa"
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}
