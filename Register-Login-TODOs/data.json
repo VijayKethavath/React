@@ -1,0 +1,33 @@
+{
+  "user": [
+    {
+      "id": "3f1a",
+      "Username": "dfghjk",
+      "email": "kethavathvijay2210@gmail.com",
+      "Password": "123456"
+    },
+    {
+      "id": "bbaa",
+      "Username": "vijay",
+      "email": "vijay@gmail.com",
+      "Password": "123"
+    }
+  ],
+  "todos": [
+    {
+      "id": "8f8d",
+      "todo": "Learn c++",
+      "date": "5/31/2026, 10:53:55 PM",
+      "isCompleted": false,
+      "uersId": "3f1a"
+    },
+    {
+      "id": "f302",
+      "todo": "python",
+      "date": "5/31/2026, 11:23:33 PM",
+      "isCompleted": false,
+      "uersId": "bbaa"
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}
