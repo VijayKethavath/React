@@ -1,4 +1,6 @@
 import { useState } from "react";
+import { Link } from "react-router-dom";
+import "./Register.css"
 
 function Register() {
   const[err,seterr]=useState(false)
@@ -33,7 +35,7 @@ function Register() {
         
       })
       if(res.ok){
-        alert("Data added successfully");
+        alert("SignUp successfully");
         console.log(res);
         
       }
@@ -49,8 +51,10 @@ function Register() {
     
   };
   return (
-    <div>
-      <form onSubmit={onRegister}>
+    <div className="log">
+    <h1 className="head">Welcome to Todo App</h1>
+      <form onSubmit={onRegister} className="from">
+        <h1>Register</h1>
         <label>UserName </label>
         <input
           type="name"
@@ -58,7 +62,7 @@ function Register() {
           onChange={() => setusername(event.target.value)}
         />
         <br />
-        <br />
+        
         <label>Email </label>
         <input
           type="email"
@@ -66,7 +70,7 @@ function Register() {
           onChange={() => setemail(event.target.value)}
         />
         <br />
-        <br />
+        
         <label>Password </label>
         <input
           type="password"
@@ -74,9 +78,9 @@ function Register() {
           onChange={() => setpassword(event.target.value)}
         />
         <br />
-        <br />
         {err && <p style={{color:"red"}}>Already exist</p>}
-        <button type="submit">SignUp</button>
+        <button type="submit" className="btn">SignUp</button>
+        <p>Have an Account <Link to="/Login">Login Here</Link></p>
       </form>
     </div>
   );

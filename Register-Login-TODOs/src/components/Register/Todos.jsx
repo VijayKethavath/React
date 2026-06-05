@@ -1,7 +1,14 @@
 import { useState } from "react";
 import Alltodos from "./Alltodos";
+import Navbar from "../Navbar/Navbar"
+import { Navigate } from "react-router-dom";
+import "./Todo.css"
+
 
 function Todos(){
+ if(localStorage.getItem("user_id")==null){
+  return <Navigate to="/Login"/>
+ }
   const[todo,setdata] = useState("")
 
   const onbtn=async()=>{
@@ -34,10 +41,13 @@ function Todos(){
     }
   }
   return(
-    <div>
+    <div className="todo">
+        <Navbar/>
+        <div className="todobox">
         <input type="text" placeholder="Enter Todo" onChange={()=>setdata(event.target.value)} />&nbsp;
         <button onClick={onbtn}>Add</button>
         <Alltodos/>
+        </div>
     </div>
   )
 }
