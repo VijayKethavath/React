@@ -1,9 +1,12 @@
 import Counter from "./Counter";
+import DarkLight from "./DarkLigth";
 
 function App(){
   return(
   <>
-  <Counter/>
+  {/* <Counter/> */}
+  <DarkLight />
+
   </>
   )
 }
